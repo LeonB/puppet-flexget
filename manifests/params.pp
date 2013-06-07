@@ -14,12 +14,12 @@
 #
 class flexget::params {
 
-	### Application related parameters
+  ### Application related parameters
 
-	$packages = $::operatingsystem ? {
-		default => ['flexget', 'transmissionrpc']
-	}
+  $packages = $::operatingsystem ? {
+    default => ['flexget', 'transmissionrpc']
+  }
 
-	$enabled = true
+  $enabled = true
 
 }
